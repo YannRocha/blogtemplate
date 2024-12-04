@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - Exemplo</title>
+  
+  <!-- CSS para o layout específico -->
+  <link rel="stylesheet" href="{{ "/assets/css/exemplo.css" | relative_url }}">
+  
+  <!-- Fonte adicional -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="exemplo-header">
+    <h1>{{ page.title }}</h1>
+    <p>Publicado por {{ page.author }} em {{ page.date | date: "%d de %B de %Y" }}</p>
+  </header>
+  
+  <main class="exemplo-content">
+    {{ content }}
+  </main>
+  
+  <footer class="exemplo-footer">
+    <p>&copy; 2024 - Criado por {{ page.author }}</p>
+  </footer>
+</body>
+</html>

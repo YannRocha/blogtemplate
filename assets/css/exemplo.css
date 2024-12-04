@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .exemplo-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .exemplo-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .exemplo-header p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .exemplo-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .exemplo-footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
