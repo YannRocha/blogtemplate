@@ -1,21 +1,19 @@
 ---
 layout: post
-cover: 'assets/images/cover3.jpg'
+cover: "assets/images/cover3.jpg"
 navigation: True
 title: Teste Pacific
 date: 2024-03-04 10:18:00
 tags: test content
-subclass: 'post tag-test tag-content'
-logo: 'assets/images/ghost.png'
+subclass: "post tag-test tag-content"
+logo: "assets/images/ghost.png"
 author: casper
 categories: casper
 ---
 
 <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
 
-
 <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
-
 
 <hr />
 
@@ -143,28 +141,27 @@ categories: casper
 <p>These area a couple of examples showing the resulting highlighted code:</p>
 
 {% highlight css %}
-/* css code sample */
+/_ css code sample _/
 #container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
+float: left;
+margin: 0 -240px 0 0;
+width: 100%;
 }
 {% endhighlight %}
-
 
 {% highlight javascript %}
 // javascript code sample
 $.ajax({
-  type: 'POST',
-  url: 'backend.php',
-  data: "q="+myform.serialize(),
-  success: function(data){
-    // on success use return data here
-  },
-  error: function(xhr, type, exception) {
-    // if ajax fails display error alert
-    alert("ajax error response type "+type);
-  }
+type: 'POST',
+url: 'backend.php',
+data: "q="+myform.serialize(),
+success: function(data){
+// on success use return data here
+},
+error: function(xhr, type, exception) {
+// if ajax fails display error alert
+alert("ajax error response type "+type);
+}
 });
 {% endhighlight %}
 
@@ -178,21 +175,21 @@ For more on how to use it and on the available styles check their
 import Foundation
 
 @objc class Person: Entity {
-  var name: String!
-  var age:  Int!
+var name: String!
+var age: Int!
 
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
+init(name: String, age: Int) {
+/_ /_ ... _/ _/
+}
 
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -> String {
-    return "\(name) is \(age + offset) years old"
-  }
+// Return a descriptive string for this person
+func description(offset: Int = 0) -> String {
+return "\(name) is \(age + offset) years old"
+}
 }
 </code></pre>
-</div>
 
+</div>
 
 <hr />
 
