@@ -7,13 +7,11 @@ paginate: 5
 language: "en-uk"
 
 # Website info
-name: "Finding The Way Home"
+name: "Pacific teste"
 description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
 
 baseurl: "/blogtemplate" # the subpath of your site, e.g. /blog
 url: "https://yannrocha.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: UA-69281367-1
-disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 #baseurl: /jasper/
 
@@ -42,16 +40,7 @@ plugins: [jekyll-paginate]
 # username defaults to ENV['GIT_NAME'] used by Travis
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-safe: false
-lsi: false
-username: jekyllt
-repo: jasper
-branch: master
-relative_source: ../jasper/
-destination: ../jasper-pages/
-production_url: https://jekyllt.github.io/jasper/
-source_url: https://github.com/jekyllt/jasper/
+# or "master" otherwis
 
 exclude:
   - README.md
